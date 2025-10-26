@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La mif du Roland Garros in Marrakech (Nov 29 - Dec 1)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 950px;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #222;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .container {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background-color: #fdfdfd;
+        }
+        .flight-option {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e0ff;
+        }
+        .flight-option .flight-details {
+            border-top: 1px dashed #007ab3;
+            border-bottom: 1px dashed #007ab3;
+            padding: 15px 0;
+            margin: 15px 0;
+        }
+        .flight-option .flight-details strong {
+            display: inline-block;
+            min-width: 80px;
+        }
+        .flight-option ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .flight-option li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .skyscanner-btn {
+            display: inline-block;
+            background-color: #00a699;
+            color: #ffffff;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .skyscanner-btn:hover {
+            background-color: #008a7d;
+        }
+        
+        /* This wrapper makes tables scrollable on mobile */
+        .table-wrapper {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+            white-space: nowrap; /* Prevents text from wrapping awkwardly */
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .price-final {
+            font-weight: bold;
+            color: #337ab7;
+            font-size: 1.1em;
+        }
+        .total-trip-cost {
+            font-weight: bold;
+            color: #c9302c;
+            font-size: 1.1em;
+            background-color: #fcf8e3;
+        }
+        .notes-list {
+            margin: 0;
+            padding-left: 20px;
+            white-space: normal; /* Allow text to wrap inside table cells */
+        }
+        td .notes-list li {
+            margin-bottom: 5px;
+        }
+        
+        /* New Image Gallery Styles */
+        .gallery-container {
+            display: grid;
+            /* This creates a responsive grid: */
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease-in-out;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px; /* Fixed height for consistency */
+            object-fit: cover; /* This will crop images nicely */
+            display: block;
+            background-color: #eee; /* BG for broken/placeholder image */
+        }
+        .gallery-item h3 {
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+            font-size: 1.1em;
+            border-top: 1px solid #eee;
+            /* Ensure height is consistent */
+            min-height: 3.3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* General list styles */
+        .activity-list {
+            padding-left: 20px;
+        }
+        .activity-list li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>La mif du Roland Garros in Marrakech 🎾</h1>
+    <p><strong>Dates:</strong> Saturday, Nov 29 - Monday, Dec 1, 2025<br>
+       <strong>Group:</strong> 10 people</p>
+    <p>Here is the plan for our trip. All costs are per person unless noted.</p>
+
+    <h2>Flights: Our Favorite Option</h2>
+    <div class="container flight-option">
+        <h3>Option Saturday-Monday</h3>
+        <p>After comparing multiple options (see table at the bottom), this was the best deal for price and timing.</p>
+        
+        <div class="flight-details">
+            <strong>Flight:</strong> Transavia<br>
+            <strong>Dates:</strong> Sat, Nov 29 - Mon, Dec 1<br>
+            <strong>Cost:</strong> ~€173 (from original search)
+        </div>
+
+        <p><strong>OUTBOUND: Saturday, Nov 29, 2025</strong><br>
+           <strong>Departs (Paris):</strong> 06:15<br>
+           <strong>Arrives (Marrakech):</strong> ~09:40 (Flight time ~3h 25m)
+        </p>
+        <p><strong>INBOUND: Monday, Dec 1, 2025</strong><br>
+           <strong>Departs (Marrakech):</strong> 12:15<br>
+           <strong>Arrives (Paris):</strong> ~15:40 (Flight time ~3h 25m)
+        </p>
+
+        <p>This plan gives us a full Saturday and Sunday in Marrakech. Click the link below to check the current price and other options (the link is already filtered for our dates and preferences).</p>
+        <a href="https://www.skyscanner.fr/transport/vols/pari/rak/251129/251201/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&outboundaltsenabled=false&inboundaltsenabled=false&duration=240&departure-times=0-600,660-1439&preferdirects=true" class="skyscanner-btn" target="_blank" rel="noopener noreferrer">Check Real-Time Flight Prices</a>
+    </div>
+    
+    <h2>Visual Accommodation Gallery (Booking.com)</h2>
+    <p>Click on an image to see the full listing. The detailed price comparison is in the table below.</p>
+    <div class="gallery-container">
+        
+        <div class="gallery-item">
+            <a href="https://www.booking.com/hotel/ma/villa-eden-marrakech-oulad-hassoune-marrakech.pt-br.html?aid=2195102&label=1761471024.210554&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=1504966301_422244925_10_0_0&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=10&group_children=0&hapos=16&highlighted_blocks=1504966301_422244925_10_0_0&hpos=16&matching_block_id=1504966301_422244925_10_0_0&nflt=ht_id%3D213%3Bprivacy_type%3D3%3Bdistance%3D5000&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_entire_place=1&sb_price_type=total&sr_order=upsort_bh&sr_pri_blocks=1504966301_422244925_10_0_0__94424&srepoch=1761474279&srpvid=bc62484b94b60566&type=total&ucfs=1" target="_blank" rel="noopener noreferrer">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/758453782.jpg?k=4a21c839d13ac64f1185b129274718190e3f382242cdd425352bb0d99106e1b0&o=" alt="Villa EDEN Marrakech">
+                <h3>1. Villa EDEN Marrakech (Tennis!)</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://www.booking.com/hotel/ma/villa-argana-moderne-et-luxueuse.fr.html?aid=318615&label=New_French_FR_FR_21427169905-YP8jtirKV%2AkzSzTpDnHYDwS640938627539%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=1289433601_401889309_10_0_0_876426&checkin=2025-11-29&checkout=2025-12-01&dest_id=12037753&dest_type=hotel&dist=0&group_adults=10&group_children=0&hapos=5&highlighted_blocks=1289433601_401889309_10_0_0_876426&hpos=5&matching_block_id=1289433601_401889309_10_0_0_876426&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1289433601_401889309_10_0_0_876426_100580&srepoch=1761470392&srpvid=ed2141989dbe0324&type=total&ucfs=1" target="_blank" rel="noopener noreferrer">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/694852404.jpg?k=4dd4b107bf30e356634ace804af200db034240faf15ea5bcc86a15da714ac8e6&o=" alt="Villa Argana">
+                <h3>2. Villa Argana (Tennis!)</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://www.booking.com/hotel/ma/domaine-rosaroum.fr.html?aid=318615&label=New_French_FR_FR_21427169905-YP8jtirKV%2AkzSzTpDnHYDwS640938627539%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=45791803_88817097_0_42_0&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=12&group_children=0&hapos=36&highlighted_blocks=45791803_88817097_0_42_0&hpos=11&matching_block_id=45791803_88817097_0_42_0&no_rooms=1&req_adults=12&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=45791803_88817097_0_42_0__128579&srepoch=1761476327&srpvid=b3c94d186a8500bf&type=total&ucfs=1" target="_blank" rel="noopener noreferrer">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/147178549.jpg?k=dd7362f31fdd28b299178819a30ff86f526699b1cbde699a7c68b73c3a05b3b9&o=" alt="Domaine Rosaroum">
+                <h3>3. Domaine Rosaroum</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://www.booking.com/hotel/ma/villa-ilao.pt-br.html?aid=2195102&label=1761471024.210554&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=1501611001_421838966_10_0_0&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=10&group_children=0&hapos=2&highlighted_blocks=1501611001_421838966_10_0_0&hpos=2&matching_block_id=1501611001_421838966_10_0_0&nflt=ht_id%3D213%3Bprice%3DEUR-450-800-1%3Bdistance%3D5000%3Bprivacy_type%3D3%3Bht_id%3D220%3Bentire_place_bedroom_count%3D5&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_entire_place=1&sb_price_type=total&sr_order=upsort_bh&sr_pri_blocks=1501611001_421838966_10_0_0__158936&srepoch=1761474687&srpvid=95ff49fada960345&type=total&ucfs=1" target="_blank" rel="noopener noreferrer">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/757272946.jpg?k=ea201b20b687e56bb9a73303c04e89565de6cd0e759572bb510ca05e449b56d8&o=" alt="Villa Ilao">
+                <h3>4. Villa Ilao (No Reviews)</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://www.booking.com/hotel/ma/villa-taj-sofia.pt-br.html?aid=2195102&label=1761471024.210554&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=913919201_362793019_12_2_0_829735&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=10&group_children=0&hapos=1&highlighted_blocks=913919201_362793019_12_2_0_829735&hpos=1&matching_block_id=913919201_362793019_12_2_0_829735&nflt=ht_id%3D213%3Breview_score%3D90%3Bprivacy_type%3D3%3Bhotelfacility%3D54&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_entire_place=1&sb_price_type=total&sr_order=upsort_bh&sr_pri_blocks=913919201_362793019_12_2_0_829735_183200&srepoch=1761474115&srpvid=bc62484b94b60566&type=total&ucfs=1" target="_blank" rel="noopener noreferrer">
+                <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/655105453.jpg?k=79c95dce2fe355389d22ba1c6226ad56725ae8ffb9c077c77a81b604394edd17&o=" alt="Villa Taj Sofia & Spa">
+                <h3>5. Villa Taj Sofia & Spa (Luxury)</h3>
+            </a>
+        </div>
+    </div>
+
+    <h2>Accommodation Comparison Table (Booking.com)</h2>
+    <p>Here is the detailed breakdown. The "Estimated Total Trip Cost" is a per-person estimate:
+        <br><strong>(Flight €173) + (Accommodation) + (€50 Buffer for transport/taxes)</strong>
+    </p>
+    
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name / Link</th>
+                    <th>Key Features</th>
+                    <th>Notes</th>
+                    <th>Price / Person (2 nights)</th>
+                    <th>Est. Total Trip Cost / Person</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.booking.com/hotel/ma/villa-eden-marrakech-oulad-hassoune-marrakech.pt-br.html?aid=2195102&label=1761471024.210554&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=1504966301_422244925_10_0_0&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=10&group_children=0&hapos=16&highlighted_blocks=1504966301_422244925_10_0_0&hpos=16&matching_block_id=1504966301_422244925_10_0_0&nflt=ht_id%3D213%3Bprivacy_type%3D3%3Bdistance%3D5000&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_entire_place=1&sb_price_type=total&sr_order=upsort_bh&sr_pri_blocks=1504966301_422244925_10_0_0__94424&srepoch=1761474279&srpvid=bc62484b94b60566&type=total&ucfs=1" target="_blank">1. Villa EDEN Marrakech</a></td>
+                    <td><strong>2 Tennis Courts!</strong><br>6 Beds / 6 Baths<br>Private Pool, Ping-Pong, Hammam</td>
+                    <td style="white-space: normal;"><strong>IDEAL FOR THEME.</strong> Great value. A bit far from center, but cheap rent should cover driver costs. (Total: €944.24)</td>
+                    <td class="price-final">€94.42</td>
+                    <td class="total-trip-cost">~€317.42</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.booking.com/hotel/ma/villa-argana-moderne-et-luxueuse.fr.html?aid=318615&label=New_French_FR_FR_21427169905-YP8jtirKV%2AkzSzTpDnHYDwS640938627539%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=1289433601_401889309_10_0_0_876426&checkin=2025-11-29&checkout=2025-12-01&dest_id=12037753&dest_type=hotel&dist=0&group_adults=10&group_children=0&hapos=5&highlighted_blocks=1289433601_401889309_10_0_0_876426&hpos=5&matching_block_id=1289433601_401889309_10_0_0_876426&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=1289433601_401889309_10_0_0_876426_100580&srepoch=1761470392&srpvid=ed2141989dbe0324&type=total&ucfs=1" target="_blank">2. Villa Argana</a></td>
+                    <td><strong>Tennis Court!</strong><br>5 Bedrooms<br>Heated Pool, 9.5 Rating</td>
+                    <td style="white-space: normal;">Beautiful, great comments, good price. (Total: €1,005.80)</td>
+                    <td class="price-final">€100.58</td>
+                    <td class="total-trip-cost">~€323.58</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.booking.com/hotel/ma/domaine-rosaroum.fr.html?aid=318615&label=New_French_FR_FR_21427169905-YP8jtirKV%2AkzSzTpDnHYDwS640938627539%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=45791803_88817097_0_42_0&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=12&group_children=0&hapos=36&highlighted_blocks=45791803_88817097_0_42_0&hpos=11&matching_block_id=45791803_88817097_0_42_0&no_rooms=1&req_adults=12&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=45791803_88817097_0_42_0__128579&srepoch=1761476327&srpvid=b3c94d186a8500bf&type=total&ucfs=1" target="_blank">3. Domaine Rosaroum</a></td>
+                    <td>7 Rooms<br>Heated Pool</td>
+                    <td style="white-space: normal;">Looks really nice, good reviews. (Total: €1,285.79)</td>
+                    <td class="price-final">€128.58</td>
+                    <td class="total-trip-cost">~€351.58</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.booking.com/hotel/ma/villa-ilao.pt-br.html?aid=2195102&label=1761471024.210554&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=1501611001_421838966_10_0_0&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=10&group_children=0&hapos=2&highlighted_blocks=1501611001_421838966_10_0_0&hpos=2&matching_block_id=1501611001_421838966_10_0_0&nflt=ht_id%3D213%3Bprice%3DEUR-450-800-1%3Bdistance%3D5000%3Bprivacy_type%3D3%3Bht_id%3D220%3Bentire_place_bedroom_count%3D5&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_entire_place=1&sb_price_type=total&sr_order=upsort_bh&sr_pri_blocks=1501611001_421838966_10_0_0__158936&srepoch=1761474687&srpvid=95ff49fada960345&type=total&ucfs=1" target="_blank">4. Villa Ilao</a></td>
+                    <td>5 Beds / 6 Baths<br>2 Pools, Gym, Hammam, Jacuzzi, Cinema</td>
+                    <td style="white-space: normal;">Looks amazing, but <strong>NO REVIEWS</strong>. Suspicious, not a first option. (Total: €1,589.36)</td>
+                    <td class="price-final">€158.94</td>
+                    <td class="total-trip-cost">~€381.94</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.booking.com/hotel/ma/villa-taj-sofia.pt-br.html?aid=2195102&label=1761471024.210554&sid=775b3e6cc659a7fb339300a16d17c4ea&all_sr_blocks=913919201_362793019_12_2_0_829735&checkin=2025-11-29&checkout=2025-12-01&dest_id=-38833&dest_type=city&dist=0&group_adults=10&group_children=0&hapos=1&highlighted_blocks=913919201_362793019_12_2_0_829735&hpos=1&matching_block_id=913919201_362793019_12_2_0_829735&nflt=ht_id%3D213%3Breview_score%3D90%3Bprivacy_type%3D3%3Bhotelfacility%3D54&no_rooms=1&req_adults=10&req_children=0&room1=A%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA%2CA&sb_entire_place=1&sb_price_type=total&sr_order=upsort_bh&sr_pri_blocks=913919201_362793019_12_2_0_829735_183200&srepoch=1761474115&srpvid=bc62484b94b60566&type=total&ucfs=1" target="_blank">5. Villa Taj Sofia & Spa</a></td>
+                    <td>Luxury Spa Villa</td>
+                    <td style="white-space: normal;">Premium / expensive option, but looks like a full experience. (Total: €1,832.00)</td>
+                    <td class="price-final">€183.20</td>
+                    <td class="total-trip-cost">~€406.20</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Visual Accommodation Gallery (Airbnb)</h2>
+    <p>These are other options from Airbnb. Click for details.</p>
+    <div class="gallery-container">
+        
+        <div class="gallery-item">
+            <a href="https://pt.airbnb.com/rooms/1502723807051255437?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1502723807051255437/original/77db535a-48c6-4d6c-8c3d-daf4f1b51e6d.jpeg?im_w=1200" alt="Airbnb Waterpark Villa">
+                <h3>6. Airbnb: 5 Star | Waterpark (Best Price)</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://pt.airbnb.com/rooms/21259388?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-21259388/original/b2446c2e-661f-4707-acf5-9089886fc58e.jpeg?im_w=1200" alt="Airbnb Luxury Golf Villa">
+                <h3>7. Airbnb: Luxury Villa with Golf</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://pt.airbnb.com/rooms/680315989377036840?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-680315989377036840/original/c97dc708-9973-49d6-8187-e5df1e0a0300.jpeg?im_w=1200" alt="Airbnb 10 guests Villa">
+                <h3>8. Airbnb: 10 guests, 5 bedrooms</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://pt.airbnb.com/rooms/1263622047782805597?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTI2MzYyMjA0Nzc4MjgwNTU5Nw%3D%3D/original/f7bf4fec-44b2-4770-ba20-b60044166e5e.jpeg?im_w=1200" alt="Airbnb 12 guests Villa">
+                <h3>9. Airbnb: 12 guests, 6 bedrooms</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://pt.airbnb.com/rooms/1320169746040373079?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTMyMDE2OTc0NjA0MDM3MzA3OQ%3D%3D/original/418340ac-a6f5-45a1-ab4a-57352fd8d0a8.jpeg?im_w=1200" alt="Airbnb 16+ guests Villa">
+                <h3>10. Airbnb: 16+ guests, 5 bedrooms</h3>
+            </a>
+        </div>
+    </div>
+
+
+    <h2>Airbnb Options (Preliminary Look)</h2>
+    <p>This is a separate table for the Airbnb options, which have not been as fully analyzed. Prices are based on the data provided (for 10 people for 2 nights).</p>
+    
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name / Link</th>
+                    <th>Key Features</th>
+                    <th>Notes</th>
+                    <th>Price / Person (2 nights)</th>
+                    <th>Est. Total Trip Cost / Person</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://pt.airbnb.com/rooms/1502723807051255437?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank">6. Airbnb: 5 Star | Waterpark</a></td>
+                    <td>6 Beds / 5.5 Baths<br>Waterpark, Football, Hammam, Chef</td>
+                    <td style="white-space: normal;">New Listing (2 reviews). <strong>Best price found!</strong> (Total: €952)</td>
+                    <td class="price-final">€95.20</td>
+                    <td class="total-trip-cost">~€318.20</td>
+                </tr>
+                <tr>
+                    <td><a href="https://pt.airbnb.com/rooms/21259388?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank">7. Airbnb: Luxury Villa Golf</a></td>
+                    <td>6 Beds / 6 Baths<br>(For 12 guests)</td>
+                    <td style="white-space: normal;">Rated 4.75 (60 reviews). (Total: €1,053)</td>
+                    <td class="price-final">€105.30</td>
+                    <td class="total-trip-cost">~€328.30</td>
+                </tr>
+                <tr>
+                    <td><a href="https://pt.airbnb.com/rooms/680315989377036840?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank">8. Airbnb: 10 guests Villa</a></td>
+                    <td>8 Beds / 5 Baths<br>(For 10 guests)</td>
+                    <td style="white-space: normal;">Rated 5.0 (10 reviews). (Total: €1,150)</td>
+                    <td class="price-final">€115.00</td>
+                    <td class="total-trip-cost">~€338.00</td>
+                </tr>
+                <tr>
+                    <td><a href="https://pt.airbnb.com/rooms/1263622047782805597?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank">9. Airbnb: 12 guests Villa</a></td>
+                    <td>6 Beds / 6.5 Baths<br>(For 12 guests)</td>
+                    <td style="white-space: normal;">Rated 5.0 (5 reviews). (Total: €1,210)</td>
+                    <td class="price-final">€121.00</td>
+                    <td class="total-trip-cost">~€344.00</td>
+                </tr>
+                <tr>
+                    <td><a href="https://pt.airbnb.com/rooms/1320169746040373079?adults=10&check_in=2025-11-29&check_out=2025-12-01" target="_blank">10. Airbnb: 16+ guests Villa</a></td>
+                    <td>9 Beds / 5.5 Baths<br>(For 16+ guests)</td>
+                    <td style="white-space: normal;">Rated 4.88 (26 reviews). (Total: €1,290)</td>
+                    <td class="price-final">€129.00</td>
+                    <td class="total-trip-cost">~€352.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Expected Weather (Late Nov / Early Dec)</h2>
+    <div class="container">
+        <p>The weather should be perfect for a trip: mild, sunny, and pleasant.</p>
+        <ul class="activity-list">
+            <li><strong>Daytime Highs:</strong> Average 21°C-22°C.</li>
+            <li><strong>Evening Lows:</strong> Average 12°C. Can drop to 9°C.</li>
+            <li><strong>Sunshine:</strong> Generally sunny with ~7 hours of sun per day.</li>
+            <li><strong>Rain:</strong> Low chance.</li>
+        </ul>
+        
+    </div>
+
+    <h2>Potential Activities & Costs</h2>
+    <div class="container">
+        <ul class="activity-list">
+            <li>
+                <strong>Tennis Courts:</strong>
+                <ul class="notes-list">
+                    <li>Few of our villa options already have courts.</li>
+                    <li>If not, we can rent at clubs like <strong>Royal Tennis Club de Marrakech</strong>, <strong>Atlas Tennis Padel</strong>, or <strong>Palm Tennis Club</strong>.</li>
+                    <li>Prices are generally affordable, around €10-€20 per hour.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Quad Biking:</strong>
+                <ul class="notes-list">
+                    <li>A 2-hour guided tour in the desert (including hotel pickup) costs approximately <strong>€25 - €45 per person</strong>.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Hammam & Spa:</strong>
+                <ul class="notes-list">
+                    <li><strong>Traditional Hammam (30-45 min):</strong> €23 - €33 </li>
+                    <li><strong>1-Hour Relaxing Massage:</strong> €39 - €56 </li>
+                    <li><strong>Package (Hammam + 1hr Massage):</strong> €50 - €95 </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Other:</strong>
+                <ul class="notes-list">
+                    <li>Running (Free, e.g., in the Menara Gardens)</li>
+                    <li>Exploring the Jemaa el-Fna Square & Souks (Free to explore)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h2>Important Info: Rackets & Local Rules</h2>
+    <div class="container">
+        <h3>Tennis Rackets</h3>
+        <p>I have sent a message to Transavia to ask about the policy and cost for bringing tennis rackets on the plane. I am waiting for their answer and will update everyone as soon as I know.</p>
+
+        <h3>Alcohol & Local Conduct</h3>
+        <p>Please be aware of the local rules:</p>
+        <ul class="activity-list">
+            <li>Drinking alcohol in public (streets, parks, etc.) is forbidden.</li>
+            <li>It is perfectly fine to buy alcohol and drink it at our private villa.</li>
+            <li>Licensed restaurants and bars also serve alcohol.</li>
+            <li>Being drunk and "wasted" in public is not allowed and can lead to trouble. Please be respectful.</li>
+        </ul>
+    </div>
+
+    <h2>Flight Comparison Table (Original Search)</h2>
+    <p>This table shows the other options we looked at, which is why we chose Option 2 as the best deal.</p>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Option</th>
+                    <th>Duration</th>
+                    <th>Days Off Required</th>
+                    <th>Outbound Flight</th>
+                    <th>Inbound Flight</th>
+                    <th>Total Cost</th>
+                    <th>Arrival/Departure Timing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Option 1</strong></td>
+                    <td>2 Nights</td>
+                    <td>Friday (Full Day)</td>
+                    <td>Friday 07:15 (€128)</td>
+                    <td>Sunday 18:10 (€159)</td>
+                    <td><strong>€287</strong></td>
+                    <td style="white-space: normal;">Arrive early Friday; late departure Sunday.</td>
+                </tr>
+                <tr>
+                    <td><strong>Option 3</strong></td>
+                    <td>3 Nights</td>
+                    <td>Friday (PM) + Monday (Full Day)</td>
+                    <td>Friday 13:55 (€82)</td>
+                    <td>Monday 12:15 (€82)</td>
+                    <td><strong>€164</strong></td>
+                    <td style="white-space: normal;">Arrive Friday 6 PM; depart Monday midday.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
