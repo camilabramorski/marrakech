@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrakech Trip (Nov 29 - Dec 1)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 950px;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #222;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+        .container {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            padding: 20px;
+            background-color: #fdfdfd;
+        }
+        .flight-option {
+            background-color: #e6f7ff;
+            border: 1px solid #b3e0ff;
+        }
+        .flight-option .flight-details {
+            border-top: 1px dashed #007ab3;
+            border-bottom: 1px dashed #007ab3;
+            padding: 15px 0;
+            margin: 15px 0;
+        }
+        .flight-option .flight-details strong {
+            display: inline-block;
+            min-width: 80px;
+        }
+        .flight-option ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .flight-option li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .skyscanner-btn {
+            display: inline-block;
+            background-color: #00a699;
+            color: #ffffff;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 1.1em;
+            text-align: center;
+        }
+        .skyscanner-btn:hover {
+            background-color: #008a7d;
+        }
+        
+        /* This wrapper makes tables scrollable on mobile */
+        .table-wrapper {
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+            white-space: nowrap; /* Prevents text from wrapping awkwardly */
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .price-final {
+            font-weight: bold;
+            color: #337ab7;
+            font-size: 1.1em;
+        }
+        .total-trip-cost {
+            font-weight: bold;
+            color: #c9302c;
+            font-size: 1.1em;
+            background-color: #fcf8e3;
+        }
+        .notes-list {
+            margin: 0;
+            padding-left: 20px;
+            white-space: normal; /* Allow text to wrap inside table cells */
+        }
+        td .notes-list li {
+            margin-bottom: 5px;
+        }
+        
+        /* New Image Gallery Styles */
+        .gallery-container {
+            display: grid;
+            /* This creates a responsive grid: */
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .gallery-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease-in-out;
+        }
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        .gallery-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px; /* Fixed height for consistency */
+            object-fit: cover; /* This will crop images nicely */
+            display: block;
+            background-color: #eee; /* BG for broken/placeholder image */
+        }
+        .gallery-item h3 {
+            padding: 15px;
+            margin: 0;
+            text-align: center;
+            font-size: 1.1em;
+            /* Ensure height is consistent */
+            min-height: 3.3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* General list styles */
+        .activity-list {
+            padding-left: 20px;
+        }
+        .activity-list li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Marrakech Trip 🇲🇦</h1>
+    <p><strong>Dates:</strong> Saturday, Nov 29 - Monday, Dec 1, 2025<br>
+       <strong>Group:</strong> 7 people</p>
+    <p>Here is the plan for our trip. All costs are per person unless noted.</p>
+
+    <h2>Flights: Our Favorite Option</h2>
+    <div class="container flight-option">
+        <h3>Option 2: The Quick Weekender</h3>
+        <p>After comparing multiple options (see table at the bottom), this was the best deal for price and timing.</p>
+        
+        <div class="flight-details">
+            <strong>Flight:</strong> Transavia<br>
+            <strong>Dates:</strong> Sat, Nov 29 - Mon, Dec 1<br>
+            <strong>Cost:</strong> ~€173 (from original search)
+        </div>
+
+        <p><strong>OUTBOUND: Saturday, Nov 29, 2025</strong><br>
+           <strong>Departs (Paris):</strong> 06:15<br>
+           <strong>Arrives (Marrakech):</strong> ~09:40 (Flight time ~3h 25m)
+        </p>
+        <p><strong>INBOUND: Monday, Dec 1, 2025</strong><br>
+           <strong>Departs (Marrakech):</strong> 12:15<br>
+           <strong>Arrives (Paris):</strong> ~15:40 (Flight time ~3h 25m)
+        </p>
+
+        <p>This plan gives us a full Saturday and Sunday in Marrakech. Click the link below to check the current price and other options (the link is already filtered for our dates and preferences).</p>
+        <a href="https://www.skyscanner.fr/transport/vols/pari/rak/251129/251201/?adultsv2=1&cabinclass=economy&childrenv2=&ref=home&rtn=1&outboundaltsenabled=false&inboundaltsenabled=false&duration=240&departure-times=0-600,660-1439&preferdirects=true" class="skyscanner-btn" target="_blank" rel="noopener noreferrer">Check Real-Time Flight Prices</a>
+    </div>
+    
+    <h2>New Accommodation Options (Riads in the Medina)</h2>
+    <p>Since we are now 7 people, I found these 3 great options. They are all Riads (traditional houses) in the heart of the old city (Medina). Click for details.</p>
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <a href="https://www.airbnb.fr/rooms/1353539675631911522" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM1MzUzOTY3NTYzMTkxMTUyMg==/original/2ec3ab87-15b8-4292-8633-0bdfda258fb4.jpeg?im_w=1200" alt="Authentique riad">
+                <h3>1. Authentique Riad (Best Location)</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://www.airbnb.fr/rooms/1447949792188217841" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1447949792188217841/original/64fe5103-f4da-4539-b2bd-af051ceca6c1.jpeg?im_w=1200" alt="Riad Isa Louise">
+                <h3>2. Riad Isa Louise (Best Reviews + Hammam)</h3>
+            </a>
+        </div>
+        
+        <div class="gallery-item">
+            <a href="https://www.airbnb.fr/rooms/994988266119875952" target="_blank" rel="noopener noreferrer">
+                <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTk0OTg4MjY2MTE5ODc1OTUy/original/e0c57c75-8b20-4c9e-b1ef-7b387ea17179.jpeg?im_w=1200" alt="Riad with Rooftop">
+                <h3>3. Riad (Best Rooftop View)</h3>
+            </a>
+        </div>
+    </div>
+
+    <h2>Accommodation Comparison Table (for 7 People)</h2>
+    <p>Here is the detailed breakdown for our group of 7. The "Estimated Total Trip Cost" is a per-person estimate:
+        <br><strong>(Flight €173) + (Accommodation) + (€50 Buffer for transport/taxes)</strong>
+    </p>
+    
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name / Link</th>
+                    <th>Key Advantage</th>
+                    <th>Location</th>
+                    <th>Bedrooms / Beds</th>
+                    <th>Price / Person (2 nights)</th>
+                    <th>Est. Total Trip Cost / Person</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="https://www.airbnb.fr/rooms/1353539675631911522" target="_blank">1. Authentique Riad</a></td>
+                    <td style="white-space: normal;">Best location + very authentic atmosphere. Excellent reviews.</td>
+                    <td>Heart of Medina</td>
+                    <td>5 Bedrooms / 5 Beds</td>
+                    <td class="price-final">€152.86</td>
+                    <td class="total-trip-cost">~€375.86</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.airbnb.fr/rooms/1447949792188217841" target="_blank">2. Riad Isa Louise</a></td>
+                    <td style="white-space: normal;">Best overall: 5★ reviews, Hammam, terrace, beautiful.</td>
+                    <td>Central Medina</td>
+                    <td>6 Bedrooms / 6 Beds</td>
+                    <td class="price-final">€156.00</td>
+                    <td class="total-trip-cost">~€379.00</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.airbnb.fr/rooms/994988266119875952" target="_blank">3. Riad (Rooftop)</a></td>
+                    <td style="white-space: normal;">Best rooftop views, great terrace for lounging.</td>
+                    <td>Central Medina</td>
+                    <td>5 Bedrooms / 8 Beds</td>
+                    <td class="price-final">€172.43</td>
+                    <td class="total-trip-cost">~€395.43</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Expected Weather (Late Nov / Early Dec)</h2>
+    <div class="container">
+        <p>The weather should be perfect for a trip: mild, sunny, and pleasant.</p>
+        <ul class="activity-list">
+            <li><strong>Daytime Highs:</strong> Average 21°C-22°C (70-72°F).</li>
+            <li><strong>Evening Lows:</strong> Average 12°C (54°F). Can drop to 9°C (48°F).</li>
+            <li><strong>Sunshine:</strong> Generally sunny with ~7 hours of sun per day.</li>
+            <li><strong>Rain:</strong> Low chance, but brief showers are possible.</li>
+        </ul>
+        <p><strong>Packing:</strong> Bring layers. T-shirts for the day, and a light jacket or sweater for the evenings.</p>
+    </div>
+
+    <h2>Potential Activities & Costs</h2>
+    <div class="container">
+        <ul class="activity-list">
+            <li>
+                <strong>Tennis Courts:</strong>
+                <ul class="notes-list">
+                    <li>We can rent at clubs like <strong>Royal Tennis Club de Marrakech</strong>, <strong>Atlas Tennis Padel</strong>, or <strong>Palm Tennis Club</strong>.</li>
+                    <li>Prices are generally affordable, around €10-€20 per hour.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Quad Biking:</strong>
+                <ul class="notes-list">
+                    <li>A 2-hour guided tour in the desert (including hotel pickup) costs approximately <strong>€25 - €45 per person</strong>.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Hammam & Spa:</strong>
+                <ul class="notes-list">
+                    <li>Riad Isa Louise (Option 2) has its own private Hammam!</li>
+                    <li><strong>Traditional Hammam (30-45 min):</strong> €23 - €33 (250-350 MAD)</li>
+                    <li><strong>1-Hour Relaxing Massage:</strong> €39 - €56 (420-600 MAD)</li>
+                    <li><strong>Package (Hammam + 1hr Massage):</strong> €50 - €95 (550-1000 MAD)</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Other:</strong>
+                <ul class="notes-list">
+                    <li>Running (Free, e.g., in the Menara Gardens)</li>
+                    <li>Exploring the Jemaa el-Fna Square & Souks (Free to explore)</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h2>Important Info: Local Rules</h2>
+    <div class="container">
+        <h3>Alcohol & Local Conduct</h3>
+        <p>Please be aware of the local rules:</p>
+        <ul class="activity-list">
+            <li>Drinking alcohol in public (streets, parks, etc.) is forbidden.</li>
+            <li>It is perfectly fine to buy alcohol (e.g., at a Carrefour supermarket) and drink it at our private Riad.</li>
+            <li>Licensed restaurants and bars also serve alcohol.</li>
+            <li>Being drunk and "wasted" in public is not allowed and can lead to trouble. Please be respectful.</li>
+        </ul>
+    </div>
+
+    <h2>Flight Comparison Table (Original Search)</h2>
+    <p>This table shows the other options we looked at, which is why we chose Option 2 as the best deal.</p>
+    <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Option</th>
+                    <th>Duration</th>
+                    <th>Days Off Required</th>
+                    <th>Outbound Flight</th>
+                    <th>Inbound Flight</th>
+                    <th>Total Cost</th>
+                    <th>Arrival/Departure Timing</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Option 1</strong></td>
+                    <td>2 Nights</td>
+                    <td>Friday (Full Day)</td>
+                    <td>Friday 07:15 (€128)</td>
+                    <td>Sunday 18:1S0 (€159)</td>
+                    <td><strong>€287</strong></td>
+                    <td style="white-space: normal;">Arrive early Friday; late departure Sunday.</td>
+                </tr>
+                <tr>
+                    <td><strong>Option 3</strong></td>
+                    <td>3 Nights</td>
+                    <td>Friday (PM) + Monday (Full Day)</td>
+                    <td>Friday 13:55 (€82)</td>
+                    <td>Monday 12:15 (€82)</td>
+                    <td><strong>€164</strong></td>
+                    <td style="white-space: normal;">Arrive Friday 6 PM; depart Monday midday.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
